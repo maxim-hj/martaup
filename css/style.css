@@ -389,6 +389,19 @@ body {
 @media (max-width: 570px) {
   .menu__list {
     display: none;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background: #1a51ab;
+  }
+  .menu__list li + li {
+    margin-left: 0;
+  }
+  .menu__list a {
+    display: block;
+    padding: 10px 0;
   }
   .menu__btn {
     width: 30px;
