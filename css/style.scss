@@ -319,7 +319,24 @@ body {
     margin-top: 7px;
   }
   .login {
-    padding-right: 30px;
+    //padding-right: 0;
+    position: absolute;
+    left: 3%;
+    top: 75px;
+    
+    background: #fff;
+    padding: 5px 51.5px;
+    color: #250F8A;
+    border-radius: 20px;
+    transition: all .5s ease;
+  }
+  .login:hover {
+      background: #250F8A;
+      color: white;
+  }
+
+  .sign-up {
+    position: absoulute;
   }
 }
 
