@@ -193,6 +193,124 @@ body {
   right: 90%;
 }
 
+.advantage {
+  padding-top: 64px;
+  background: #F4F9FD;
+  background-image: url(../images/background.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+.advantage-block {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 76px;
+  &__text {
+    max-width: 456px;
+    padding-top: 60px; // от пизды размер
+    background: url(../images/path.svg) no-repeat;
+    background-position: 22px 73px;
+  }
+  &__info-title {
+    color: #202020;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    // padding-top: 68px;
+    // padding-bottom: 15px;
+    // padding-left: 48px;
+    padding: 68px 0 15px 48px;
+  }
+  &__info-descr {
+    padding-left: 48px;
+    color: #272727;
+    & p {
+      margin: 12px 0;
+    }
+  }
+  &__image {}
+}
+
+.advantage-block--reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  & .advantage-block__text {
+    background: url(../images/path-r.svg) no-repeat;
+    background-position: 22px 134px;
+  }
+}
+
+.rewievs {
+  background: url(../images/bg.jpg) no-repeat center top / cover;
+  &__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    padding-top: 38px;
+    padding-bottom: 48px;
+    color: white;
+  }
+  &__container {
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 82px;
+  }
+  &__block {
+    background: rgba(255, 255, 255, 0.2);
+    max-width: 300px;
+    padding: 35px 20px;
+    color: white;
+    border-radius: 5px;
+  }
+  &__name {
+    display: flex;
+    margin-bottom: 12px;
+  }
+  &__name-pos {}
+  &__descr {
+    text-align: center;
+    opacity: 1;
+  }
+}
+.r-name {
+  font-weight: 600;
+}
+.r-pos {
+  opacity: .5;
+}
+
+.ava {
+  margin-right: 20px;
+  border-radius: 26px;
+}
+
+.footer {
+  height: 61px;
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  &__links {}
+  &__item {
+    list-style: none;
+    display: flex;
+  }
+  &__link {
+    margin-right: 35px;
+    & a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+.copy {
+}
+
+
+
 
 
 

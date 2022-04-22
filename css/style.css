@@ -224,3 +224,149 @@ body {
   position: absolute;
   right: 90%;
 }
+
+.advantage {
+  padding-top: 64px;
+  background: #F4F9FD;
+  background-image: url(../images/background.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.advantage-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 76px;
+}
+
+.advantage-block__text {
+  max-width: 456px;
+  padding-top: 60px;
+  background: url(../images/path.svg) no-repeat;
+  background-position: 22px 73px;
+}
+
+.advantage-block__info-title {
+  color: #202020;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 700;
+  padding: 68px 0 15px 48px;
+}
+
+.advantage-block__info-descr {
+  padding-left: 48px;
+  color: #272727;
+}
+
+.advantage-block__info-descr p {
+  margin: 12px 0;
+}
+
+.advantage-block--reverse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.advantage-block--reverse .advantage-block__text {
+  background: url(../images/path-r.svg) no-repeat;
+  background-position: 22px 134px;
+}
+
+.rewievs {
+  background: url(../images/bg.jpg) no-repeat center top/cover;
+}
+
+.rewievs__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 45px;
+  padding-top: 38px;
+  padding-bottom: 48px;
+  color: white;
+}
+
+.rewievs__container {
+  max-width: 940px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 82px;
+}
+
+.rewievs__block {
+  background: rgba(255, 255, 255, 0.2);
+  max-width: 300px;
+  padding: 35px 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+.rewievs__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.rewievs__descr {
+  text-align: center;
+  opacity: 1;
+}
+
+.r-name {
+  font-weight: 600;
+}
+
+.r-pos {
+  opacity: .5;
+}
+
+.ava {
+  margin-right: 20px;
+  border-radius: 26px;
+}
+
+.footer {
+  height: 61px;
+}
+
+.footer__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+}
+
+.footer__item {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__link {
+  margin-right: 35px;
+}
+
+.footer__link a {
+  text-decoration: none;
+  color: black;
+}
