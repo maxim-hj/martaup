@@ -370,3 +370,47 @@ body {
   text-decoration: none;
   color: black;
 }
+
+@media (max-width: 839px) {
+  .header__top {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header-btns {
+    width: 100%;
+    text-align: right;
+    margin-top: 7px;
+  }
+  .login {
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 570px) {
+  .menu__list {
+    display: none;
+  }
+  .menu__btn {
+    width: 30px;
+    height: 20px;
+    position: relative;
+  }
+  .menu__btn span {
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    top: 9px;
+    position: absolute;
+  }
+  .menu__btn::after,
+  .menu__btn::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+  }
+  .menu__btn::before {
+    bottom: 0;
+  }
+}
