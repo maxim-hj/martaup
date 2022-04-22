@@ -366,11 +366,12 @@ body {
   .menu__list {
     display: none;
     position: absolute;
-    top: 120px;
+    top: 150px;
     left: 0;
     text-align: center;
     width: 100%;
     background: #1a51ab;
+    z-index: 5;
     & li + li {
       margin-left: 0;
     }
