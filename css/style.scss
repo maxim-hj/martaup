@@ -334,7 +334,7 @@ body {
   .header-btns {
     width: 100%;
     text-align: right;
-    margin-top: 7px;
+    margin-top: 32px;
   }
   .login {
     //padding-right: 0;
@@ -346,6 +346,7 @@ body {
     padding: 4.8px 51.5px;
     color: #250F8A;
     border-radius: 20px;
+    margin-top: 25px;
     transition: all .5s ease;
   }
   .login:hover {
